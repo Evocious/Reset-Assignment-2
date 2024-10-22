@@ -87,6 +87,53 @@
         <img src="images/run.jpg" alt="">
       </div>
     </section>
+    <section class="BMI-container">
+      <div class="chart">
+        <h1 class="chart-title">BMI Calculator Chart</h1>
+        <table>
+          <tr>
+            <th>BMI</th>
+            <th>Weight Status</th>
+          </tr>
+          <tr>
+            <td class="secondary-colour">Below 18.5</td>
+            <td class="secondary-colour">Underweight</td>
+          </tr>
+          <tr>
+            <td class="secondary-colour">18.5 - 24.9</td>
+            <td class="secondary-colour">Healthy</td>
+          </tr>
+          <tr>
+            <td class="secondary-colour">25.0 - 29.9</td>
+            <td class="secondary-colour">Overweight</td>
+          </tr>
+          <tr>
+            <td class="secondary-colour">30.0 - and Above</td>
+            <td class="secondary-colour">Obese</td>
+          </tr>
+        </table>
+      </div>
+      <div class="calculator-container">
+        <h1 class="calculator-title">Calculate your BMI</h1>
+        <p class="calculator-desc secondary-colour">BMI also known as the Body Mass Index takes your body information and gives you a rough idea about your starting point.</p>
+        <form class="calculator" action="">
+          <input type="number" placeholder="Height/cm">
+          <input type="number" placeholder="Weight/kg">
+          <input type="number" placeholder="Age">
+          <select id="gender" name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+          <select name="Activity Factor" id="Activity">
+            <option value="">Sedentary</option>
+            <option value="">Moderately Active</option>
+            <option value="">Highly Active</option>
+          </select>
+        </form>
+        <button class="primary-button">Calculate</button>
+      </div>
+    </section>
   </main>
   <footer></footer>
 </body>

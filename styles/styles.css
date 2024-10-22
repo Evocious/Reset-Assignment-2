@@ -260,3 +260,75 @@ li a{
   margin-top: -13.5rem;
   margin-left: -40rem;
 }
+
+/* BMI styles */
+
+.BMI-container{
+  background-color: rgb(34, 34, 34);
+  width: 100%;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.chart{
+  width: 30%;
+}
+
+.chart-title{
+  font-size: 1.75rem;
+  font-weight: 900;
+  margin-bottom: 3.5rem;
+}
+
+table, th, td{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table{
+  margin-top: 1rem;
+  width: 70%;
+
+}
+
+th{
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+}
+
+td{
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 1rem 1.5rem;
+}
+
+.calculator-container{
+  width: 35%;
+}
+
+.calculator-title{
+  font-size: 1.75rem;
+  font-weight: 900;
+  margin-bottom: 0.875rem;
+}
+
+.calculator-desc{
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+
+.calculator{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 12px;
+  margin: 34px 0;
+}
+
+#Activity{
+  grid-column: 1 / span 2;
+}

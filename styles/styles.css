@@ -207,7 +207,7 @@ li a{
   font-size: 1.5rem;
   font-weight: 600;
   margin-top: 30px;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
 }
 
 .card-desc{
@@ -215,4 +215,48 @@ li a{
   line-height: 18px;
   letter-spacing: 0.3px;
   font-size: 0.875rem;
+}
+
+/* Extra mile section */
+
+.mile{
+  display: flex;
+  width: 80%;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  margin: 100px auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.mile-content{
+  width: 20%;
+}
+
+.mile-title{
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+}
+
+.mile-desc{
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  font-size: 0.875rem;
+  margin-top: 0.875rem;
+  margin-bottom: 1.125rem;
+}
+
+.mile-img{
+  width: 40%;
+  height: 23rem;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.mile-img img{
+  margin-top: -13.5rem;
+  margin-left: -40rem;
 }

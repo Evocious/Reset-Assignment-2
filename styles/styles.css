@@ -7,6 +7,10 @@
   color: rgb(255, 255, 255);
 }
 
+html{
+  background-color: rgba(0,0,0,255);
+}
+
 .lavishly-font{
   font-family: "Lavishly Yours";
 }
@@ -45,7 +49,7 @@
 /* Navbar Styles */
 
 header{
-  background:linear-gradient(180.00deg, rgb(17, 17, 17),rgba(36,36,36,255),rgb(17, 17, 17));
+  background:linear-gradient(180.00deg, rgba(0,0,0,255),rgba(36,36,36,255),rgba(0,0,0,255));
   width: 100%;
 }
 
@@ -94,6 +98,7 @@ li a{
   justify-content: space-evenly;
   align-items: center;
   margin: 3.75rem 0;
+  gap: 9rem;
 }
 
 .banner-content{
@@ -146,4 +151,68 @@ li a{
   position: absolute;
   margin-top: -11rem;
   margin-left: -6rem;
+}
+
+/* Habits Section Styles */
+
+.habits{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.habit-container{
+  display: flex;
+  gap: 2.5rem;
+}
+
+.habit-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+.card-img{
+  width: 14.5rem;
+  border: 5px solid rgba(26,26,26,255);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card-img img{
+  width: 100%;
+}
+
+.habit-title{
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 0%;
+}
+
+.habit-desc{
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-top: 1rem;
+  margin-bottom: 3.5rem;
+}
+
+.card-title{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+
+.card-desc{
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  font-size: 0.875rem;
 }

@@ -1,13 +1,14 @@
+/* Could Not find Miama fonts in google fonts so used Lavishly Yours which was similar */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lavishly+Yours&display=swap');
 
 *{
   font-family: "Inter";
   margin: 0;
+  color: rgb(255, 255, 255);
 }
 
-
-.primary-colour{
-  color: rgb(255, 255, 255);
+.lavishly-font{
+  font-family: "Lavishly Yours";
 }
 
 .secondary-colour{
@@ -26,12 +27,25 @@
   font-weight: 600;
   font-size: 1.125rem;
   padding: 1rem 2.5rem;
+  cursor: pointer;
+}
+
+.secondary-button{
+  background-color: transparent;
+  color:rgb(255, 255, 255);
+  border-radius: 44px;
+  border: 1px solid rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 1.125rem;
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
 }
 
 /* Navbar Styles */
 
 header{
-  background:linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  background:linear-gradient(180.00deg, rgb(17, 17, 17),rgba(36,36,36,255),rgb(17, 17, 17));
   width: 100%;
 }
 
@@ -52,7 +66,8 @@ ul{
   gap: 3rem;
   align-items: center;
   justify-content: center;
-  padding: 0;
+  padding-left: 0.2rem;
+  padding-right: 0.75rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
 }
@@ -72,3 +87,63 @@ li a{
   padding: 0.5rem 1.25rem;
 }
 
+/* Banner Styles */
+
+.banner-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 3.75rem 0;
+}
+
+.banner-content{
+  width: 25%;
+}
+
+.banner-title{
+  font-size: 4.875rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+}
+
+.banner-description{
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1.75rem 0;
+}
+
+.badge{
+  width: 12.5rem;
+  height: 6.125rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.red-circle{
+  width: 2.5rem;
+  height: 2.5rem;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+#workout{
+  position: absolute;
+  margin-top: -28.5rem;
+  margin-left: 13rem;
+  
+}
+
+#tutorial{
+  position: absolute;
+  margin-top: -11rem;
+  margin-left: -6rem;
+}

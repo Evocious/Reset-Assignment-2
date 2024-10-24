@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="https://kit.fontawesome.com/13331f68aa.js" crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Assignment-2</title>
   <link rel="stylesheet" href="styles/styles.css">
-</head>
 <body>
   <header>
     <nav class="navbar">
@@ -18,6 +18,7 @@
       <li><a href="">Contact</a></li>
       <li><a href="">About</a></li>
       </ul>
+      <i class="fa-solid fa-bars icon hamburger"></i>
     </nav>
     <section>
       <div class="banner-container">
@@ -38,7 +39,7 @@
             </div>
           </div>
           <div class="badge" id="tutorial">
-            <div class="red-circle"></div>
+            <div class="red-circle"><i class="fa-solid fa-play icon"></i></div>
             <div>
               <h1 class="badge-number">350+</h1>
               <p class="badge-desc secondary-colour">Video tutorial</p>
@@ -81,7 +82,7 @@
       <div class="mile-content">
         <h1 class="mile-title">Run an Extra Mile Easily</h1>
         <p class="mile-desc secondary-colour">Run an extra mile everyday easily without our new revolutionary app that shocks you every time when its time for you to run so hurry up and join our club if your a masochist.</p>
-        <button class="primary-button">Join Now</button>
+        <button class="primary-button mile-btn">Join Now</button>
       </div>
       <div class="mile-img">
         <img src="images/run.jpg" alt="">
@@ -120,12 +121,14 @@
           <input type="number" placeholder="Height/cm">
           <input type="number" placeholder="Weight/kg">
           <input type="number" placeholder="Age">
-          <select id="gender" name="gender">
+          <select id="gender" >
+            <option class="hide-option" value="" disabled selected>Gender</option>
             <option value="Male">Male</option>
             <option value="Female">Female</option>
             <option value="Other">Other</option>
           </select>
           <select name="Activity Factor" id="Activity">
+            <option class="hide-option" value="" disabled selected>Activity Factor</option>
             <option value="">Sedentary</option>
             <option value="">Moderately Active</option>
             <option value="">Highly Active</option>
@@ -142,23 +145,23 @@
           <h1 class="team-name">Jerome Bell</h1>
           <h4 class="team-job secondary-colour">Trainer</h4>
         </div>
-        <div id="member2">
+        <div class="member" id="member2">
           <h1 class="team-name">Cameron Williamson</h1>
           <h4 class="team-job secondary-colour">Trainer</h4>
         </div>
-        <div id="member3">
+        <div class="member" id="member3">
           <h1 class="team-name">Darrell Steward</h1>
           <h4 class="team-job secondary-colour">Trainer</h4>
         </div>
-        <div id="member4">
+        <div class="member" id="member4">
           <h1 class="team-name">Dianne Russell</h1>
           <h4 class="team-job secondary-colour">Trainer</h4>
         </div>
-        <div id="member5">
+        <div class="member" id="member5">
           <h1 class="team-name">Cody Fisher</h1>
           <h4 class="team-job secondary-colour">Trainer</h4>
         </div>
-        <div id="member6">
+        <div class="member" id="member6">
           <h1 class="team-name">Theresa Webb</h1>
           <h4 class="team-job secondary-colour">Trainer</h4>
         </div>

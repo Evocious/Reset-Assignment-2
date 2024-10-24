@@ -692,6 +692,21 @@ hr{
     height:15rem;
   }
 
+  /* Choose a Plan section */
+
+  .card-container{
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .card{
+    width: 90%;
+  }
+
+  .price{
+    text-align: center;
+  }
+
   /* footer Section */
 
   .footer-content{
